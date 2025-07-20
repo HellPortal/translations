@@ -1,0 +1,44 @@
+{
+    "notify": {
+        "cancel-rob": "Kasa soygununu durdurdunuz",
+        "cooldown": "Bu kötü bir fikir gibi görünüyor - beklemeliyim",
+        "no-police": "Şehirde yeterli polis yok",
+        "missing-item": "Sanırım bu, bir aletim olsaydı daha kolay olurdu",
+        "item-broke": "Maymuncuğu kırdınız ve kasayı açamadınız",
+        "failed-hack": "Bilgisayarı hackleyemediniz",
+        "wrong-pin": "Bu doğru görünmüyor... hala kilitli",
+        "failed-limit": "Çok fazla denemede bulundunuz ve dükkanı soyamadınız"
+    },
+    "target": {
+        "register": "Kasayı Soy",
+        "computer": "Giriş Yap",
+        "safe": "Kilidi Aç"
+    },
+    "alerts": {
+        "note": {
+            "header": "**Not Bulundu**",
+            "content": "Kasanın altında sadece şu numaraların yazılı olduğu ilginç bir not buldunuz: %s"
+        },
+        "hack": {
+            "header": "**Kod Açığa Çıktı**",
+            "content": "Bilgisayarı başarıyla hacklediniz ve şu kodu buldunuz: %s"
+        }
+    },
+    "inputs": {
+        "questions": {
+            "header": "Güvenlik Soruları"
+        },
+        "safe": {
+            "header": "Mağaza Kasası",
+            "label": "PIN Girin",
+            "desc": "Kasayı açmak için PIN'i girin",
+            "placeholder": "1234"
+        }
+    },
+    "logs": {
+        "register-robbed-title": "Kasa Soyuldu",
+        "register-robbed-message": "%s (tanımlayıcı: %s) bir kasadan %s tutarında başarılı bir soygun gerçekleştirdi",
+        "safe-robbed-title": "Kasa Soyuldu",
+        "safe-robbed-message": "%s (tanımlayıcı: %s) bir kasadan %s tutarında başarılı bir soygun gerçekleştirdi"
+    }
+}
