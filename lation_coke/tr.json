@@ -1,0 +1,315 @@
+{
+    "notify": {
+        "cant-carry": "O kadarını taşıyamazsın",
+        "already-searched": "Burada hiçbir şey yok gibi görünüyor",
+        "limit-reached": "Ara vermen gerektiğini hissediyorsun",
+        "not-experienced": "Bunu yapmak için henüz yeterince tecrübeli değilsin",
+        "max-tables": "Sanırım zaten yeterince masam var",
+        "max-plants": "Sanırım zaten yeterince bitkim var",
+        "no-police": "Şehirde yeterli polis yok",
+        "no-pot": "Bunu bir saksıya veya başka bir şeye koymalıyım",
+        "no-water": "Yeterli suyun yok",
+        "no-fertilizer": "Yeterli gübren yok",
+        "no-shears": "Bir makas faydalı olurdu",
+        "cant-place": "Bunu buraya yerleştiremezsin",
+        "missing-item": "Bunu yapmak için %s'ye ihtiyacım var",
+        "missing-metadata": "Yeterince şeye sahip değilsin",
+        "no-money": "Yeterli paran yok",
+        "lab-limit": "Zaten maksimum laboratuvar sayısına sahipsin",
+        "door-locked": "Kapı kilitli",
+        "door-lock-changed": "Kapıyı %s ettin",
+        "create-stash-passcode": "Yeni bir parola oluşturdun",
+        "change-stash-passcode": "Parolayı değiştirdin",
+        "remove-stash-passcode": "Parolayı kaldırdın",
+        "transfer-self": "Bu laboratuvara zaten sahipsin",
+        "transfer-invalid": "Hedef uygun değil veya geçersiz",
+        "transfer-level": "Hedef en az %s seviyesinde olmalı",
+        "transfer-max": "Hedef daha fazla laboratuvara sahip olamaz",
+        "transfer-success-owner": "Transferi tamamladın",
+        "transfer-success-target": "Bir laboratuvarın mülkiyetini aldın",
+        "auth-user-invalid": "Hedef uygun değil veya geçersiz",
+        "auth-user-self": "Kendini ekleyemezsin",
+        "auth-user-exists": "Hedef zaten yetkili bir kullanıcı",
+        "auth-user-added": "%s'i başarıyla ekledin",
+        "auth-user-edited": "%s'in izinlerini başarıyla düzenledin",
+        "auth-user-removed": "%s'i başarıyla kaldırdın",
+        "no-permission": "Bunu yapmaya iznin yok",
+        "invalid-stash-passcode": "Girdiğin parola yanlış",
+        "raid-stash-failed": "Zula'ya girmekte başarısız oldun",
+        "raid-entry-failed": "Laboratuvara girmekte başarısız oldun",
+        "confiscate-success": "Sevkıyat bilgilendirildi ve el koyma işlemi devam ediyor"
+    },
+    "target": {
+        "search-coca": "Ara",
+        "use-table": "Kullan",
+        "use-station": "Kullan",
+        "check-status": "Durumu Kontrol Et",
+        "take-cement": "Çimento Al",
+        "open-shop": "Konuş",
+        "enter-lab": "Gir",
+        "exit-lab": "Çık",
+        "open-stash": "Zulayı Aç",
+        "manage-lab": "Laboratuvarı Yönet",
+        "confiscate-equipment": "Ekipmana El Koy"
+    },
+    "textui": {
+        "plant-controls": "**Kontroller** \n **W**: İleri Hareket Et \n **S**: Geri Hareket Et \n **A**: Sola Hareket Et \n **D**: Sağa Hareket Et \n **X**: İptal Et \n **Boşluk**: Onayla",
+        "table-controls": "**Kontroller** \n **Q**: Sola Döndür \n **E**: Sağa Döndür \n **W**: İleri Hareket Et \n **S**: Geri Hareket Et \n **A**: Sola Hareket Et \n **D**: Sağa Hareket Et \n **X**: İptal Et \n **Boşluk**: Onayla",
+        "camera-controls": "**Kontroller** \n **W**: Yukarı Döndür \n **A**: Sola Döndür \n **S**: Aşağı Döndür \n **D**: Sağa Döndür \n **Q**: Yakınlaştır \n **E**: Uzaklaştır \n **Backspace**: Çık"
+    },
+    "alerts": {
+        "pickup": {
+            "header": "**Eylemi Onayla**",
+            "content": "Masayı toplamak istediğine emin misin?"
+        },
+        "destroy": {
+            "header": "**Eylemi Onayla**",
+            "content": "Bu bitkiyi yok etmek istediğine emin misin?"
+        },
+        "raid-stash": {
+            "header": "**Gir**",
+            "content": "Bu zula'ya girmek istediğine emin misin?"
+        },
+        "raid-entry": {
+            "header": "**Gir**",
+            "content": "Bu laboratuvara girmek istediğine emin misin?"
+        },
+        "remove-authorized-user": {
+            "header": "Kullanıcıyı Kaldır",
+            "content": "%s'i yetkili kullanıcılar listesinden kaldırmak istediğine emin misin?"
+        }
+    },
+    "inputs": {
+        "shops": {
+            "label": "Miktar",
+            "desc": "Kaç tane satın almak istersin?"
+        },
+        "gas": {
+            "label": "Benzin",
+            "desc": "Ne kadar benzin eklemek istersin?"
+        },
+        "cement": {
+            "label": "Çimento",
+            "desc": "Ne kadar çimento eklemek istersin?"
+        },
+        "brick": {
+            "label": "Tip Seç",
+            "desc": "Hangi tuğlayı seçmek istersin?",
+            "options": {
+                "cocaine": "Kokain",
+                "crack": "Crack"
+            }
+        },
+        "confiscate": {
+            "title": "Polis Eylemleri",
+            "manufacturing": "Üretim Ekipmanı",
+            "security": "Güvenlik Ekipmanı"
+        },
+        "stash": {
+            "title": "Zula",
+            "label": "Parolayı Gir",
+            "desc": "Bu zula'ya erişmek için bir parola gerekiyor"
+        },
+        "passcode": {
+            "title": "Parola Oluştur",
+            "label": "Parola",
+            "desc": "Yeni bir parola gir"
+        },
+        "change-passcode": {
+            "title": "Parolayı Değiştir",
+            "label": "Parola",
+            "desc": "Yeni bir parola gir"
+        },
+        "transfer-ownership": {
+            "title": "Mülkiyeti Devret",
+            "label": "Oyuncu ID'si",
+            "desc": "Mülkiyeti devretmek istediğin oyuncunun ID'sini gir"
+        },
+        "sell-lab": {
+            "title": "Laboratuvarı Sat",
+            "label": "Satışı Onayla",
+            "desc": "Bu işlem geri alınamaz, devam etmek için '%s' yaz"
+        },
+        "add-authorized-user": {
+            "title": "Yetkili Kullanıcı Ekle",
+            "label": "Oyuncu ID'si",
+            "desc": "Eklemek istediğin oyuncunun ID'sini gir"
+        },
+        "manage-authorized-user": {
+            "title": "Kullanıcıyı Yönet",
+            "label": "Eylem Seç",
+            "desc": "Ne yapmak istersin?",
+            "edit": "İzinleri Düzenle",
+            "remove": "Kullanıcıyı Kaldır"
+        },
+        "edit-authorized-user": {
+            "title": "%s'i Düzenle",
+            "access-lab": "Laboratuvara erişim (her zaman verilir)",
+            "manage-door": "Kapıyı kilitle/kilidini aç",
+            "view-camera": "Güvenlik kamerasını görüntüle",
+            "manage-users": "Yetkili kullanıcıları ekle veya kaldır"
+        }
+    },
+    "player-data": {
+        "level-title": "Kokain | Seviye %s/%s",
+        "level-desc": "Şu anda %sXP'ye sahipsin",
+        "stats-title": "Ömür Boyu İstatistikler",
+        "stats-desc": "Ömür boyu kokain istatistiklerini görüntüle",
+        "meta-next-level": "Sonraki Seviye",
+        "meta-remainder": "Kalan",
+        "meta-maxed-level": "Maksimum Seviyeye Ulaşıldı"
+    },
+    "stats-menu": {
+        "main-title": "Ömür Boyu İstatistikler",
+        "leaves-title": "Yapraklar",
+        "leaves-desc": "Toplam %s koka yaprağı topladın",
+        "grown-title": "Bitkiler",
+        "grown-desc": "Toplam %s koka bitkisi yetiştirdin",
+        "cement-title": "Çimento",
+        "cement-desc": "Toplam %s çimento torbası topladın",
+        "bricks-title": "Tuğlalar",
+        "bricks-desc": "Toplam %s tuğla ürettin"
+    },
+    "table-menu": {
+        "main-title": "Kokain",
+        "production-title": "Üretim",
+        "production-desc": "Bir parti kokain üretmeye başla",
+        "in-progress-title": "Devam Ediyor",
+        "in-progress-desc": "Tamamlanmaya kalan süre - %s dakika",
+        "take-product-title": "Ürünü Al",
+        "take-product-desc": "Ürünü masadan al",
+        "process-leaves-title": "Yaprakları İşle",
+        "process-leaves-desc": "Koka yapraklarını işlemeye başla",
+        "add-gas-title": "Benzin Ekle",
+        "add-gas-desc": "İşlenmiş yapraklara benzin ekle",
+        "add-cement-title": "Çimento Ekle",
+        "add-cement-desc": "Koka bazına çimento ekle",
+        "start-heat-title": "Isıt ve Kurut",
+        "start-heat-desc": "Koka bazını ısıt ve kurut",
+        "cook-coke-title": "Kokain Pişir",
+        "cook-coke-desc": "İsteğe bağlı olarak, crack yapmak için kokaini daha fazla pişir",
+        "cut-brick-title": "Tuğlayı Kes",
+        "cut-brick-desc": "İsteğe bağlı olarak, daha fazlası için tuğlayı karbonatla kes",
+        "package-title": "Paketle",
+        "package-desc": "Bir tuğlayı daha küçük paketlere ayır",
+        "packup-title": "Topla",
+        "packup-desc": "Her şeyi topla ve bu masayı taşı"
+    },
+    "plant-menu": {
+        "main-title": "Koka Bitkisi",
+        "water-title": "Su",
+        "water-desc": "Mevcut su seviyesi - %.1f%% (Sulamak için buraya tıkla)",
+        "fertilizer-title": "Gübre",
+        "fertilizer-desc": "Mevcut açlık seviyesi - %.1f%% (Beslemek için buraya tıkla)",
+        "growth-title": "Büyüme",
+        "growth-desc": "Mevcut büyüme seviyesi - %.1f%%",
+        "yield-title": "Verim",
+        "yield-desc": "Mevcut maksimum verim potansiyeli - %.1f%%",
+        "destroy-title": "Yok Et",
+        "destroy-desc": "Bu bitkiyi geri dönülmez şekilde yok et",
+        "harvest-title": "Hasat Et",
+        "harvest-desc-not-ready": "Hasat sadece %100 büyümede yapılabilir",
+        "harvest-desc-ready": "Artık bu bitkiyi hasat edebilirsin"
+    },
+    "lab-shop-menu": {
+        "main-title": "Laboratuvar Müsaitliği",
+        "confirm-title": "Satın Almayı Onayla",
+        "lab-title": "$%s karşılığında satın al",
+        "confirm-purchase-title": "Evet",
+        "confirm-purchase-desc": "$%s karşılığında depo satın alımını onayla",
+        "cancel-purchase-title": "Hayır",
+        "cancel-purchase-desc": "Satın almayı iptal et ve seçime geri dön",
+        "set-waypoint-title": "Ara Nokta Belirle",
+        "set-waypoint-desc": "Bu deponun nerede olduğunu görmek için bir ara nokta belirle"
+    },
+    "manage-lab-menu": {
+        "main-title": "Laboratuvarı Yönet",
+        "manage-security-title": "Güvenlik",
+        "manage-security-desc": "Laboratuvarının güvenliğini yönet",
+        "upgrade-equipment-title": "Ekipmanı Yükselt",
+        "upgrade-equipment-desc": "Laboratuvar ekipmanını yükselt",
+        "install-security-title": "Güvenlik Kur",
+        "install-security-desc": "Laboratuvarına güvenlik ekipmanı ekle",
+        "upgrade-pending-title": "Yükseltme Bekleniyor",
+        "upgrade-pending-desc": "Tamamlanmaya kalan tahmini süre - %sd %ss",
+        "ownership-title": "Mülkiyet",
+        "ownership-desc": "Laboratuvarının mülkiyetini yönet"
+    },
+    "manage-security-menu": {
+        "main-title": "Güvenliği Yönet",
+        "doorlock-title": "Kapı Durumu",
+        "doorlock-desc": "Kapı şu anda %s",
+        "create-passcode-title": "Parola Oluştur",
+        "create-passcode-desc": "Zula(lar)a erişmek için benzersiz bir parola ekle",
+        "change-passcode-title": "Parolayı Değiştir",
+        "change-passcode-desc": "Zula(lar)a erişmek için parolayı değiştir",
+        "remove-passcode-title": "Parolayı Kaldır",
+        "remove-passcode-desc": "Zula(lar)a erişmek için parolayı kaldır",
+        "authorized-users-title": "Yetkili Kullanıcılar",
+        "authorized-users-desc": "Laboratuvarına kimlerin erişebileceğini yönet",
+        "security-camera-title": "Kamerayı Görüntüle",
+        "security-camera-desc": "Güvenlik kamerası görüntüsünü izle"
+    },
+    "manage-authorized-users-menu": {
+        "main-title": "Yetkili Kullanıcılar",
+        "add-user-title": "Kullanıcı Ekle",
+        "add-user-desc": "Yetkili kullanıcılar listesine bir oyuncu ekle",
+        "manage-user-desc": "Bu kullanıcının erişimini yönetmek için tıkla"
+    },
+    "manage-ownership-menu": {
+        "main-title": "Mülkiyeti Yönet",
+        "transfer-owner-title": "Devret",
+        "transfer-owner-desc": "Bu laboratuvarın mülkiyetini devret",
+        "sell-lab-title": "Sat",
+        "sell-lab-desc": "Bu binayı devlete sat"
+    },
+    "shop-menu": {
+        "title": "Rusty'nin Dükkanı",
+        "desc": "$%s karşılığında %s satın al"
+    },
+    "dispatch": {
+        "cement": {
+            "title": "Hırsızlık Bildirildi",
+            "code": "10-31",
+            "message": "Anonim bir arayan, %s yakınlarında devam eden bir hırsızlık bildirimi yaptı"
+        },
+        "cooking-table": {
+            "title": "Şüpheli Alan",
+            "code": "10-87",
+            "message": "Anonim bir arayan, %s yakınlarında şüpheli faaliyet bildirdi"
+        },
+        "cooking-lab": {
+            "title": "Yoğun Koku",
+            "code": "10-87",
+            "message": "Anonim bir arayan, %s yakınlarında yoğun kimyasal koku bildirdi"
+        }
+    },
+    "logs": {
+        "leaves-harvested-title": "Koka Yaprakları",
+        "leaves-harvested-message": "%s (tanımlayıcı: %s) x%d %s hasat etti",
+        "cement-collected-title": "Çimento Toplandı",
+        "cement-collected-message": "%s (tanımlayıcı: %s) x%d %s çimento topladı",
+        "table-placed-title": "Masa Yerleştirildi",
+        "table-placed-message": "%s (tanımlayıcı: %s) %s konumuna bir masa yerleştirdi (masa ID: %s)",
+        "table-brick-title": "Tuğla Toplandı",
+        "table-brick-message": "%s (tanımlayıcı: %s) bir kokain tuğlası topladı (masa ID: %s)",
+        "table-packaged-title": "Tuğla Paketlendi",
+        "table-packaged-message": "%s (tanımlayıcı: %s) bir kokain tuğlasını %s pakete ayırdı (masa ID: %s)",
+        "table-removed-title": "Masa Kaldırıldı",
+        "table-removed-message": "%s (tanımlayıcı: %s) bir masayı topladı (masa ID: %s)",
+        "lab-purchase-title": "Laboratuvar Satın Alındı",
+        "lab-purchase-message": "%s (tanımlayıcı: %s) $%s karşılığında bir laboratuvar (lab ID: %s) satın aldı",
+        "lab-brick-title": "Tuğla Toplandı",
+        "lab-brick-message": "%s (tanımlayıcı: %s) bir kokain tuğlası topladı (lab ID: %s, istasyon ID: %s)",
+        "lab-packaged-title": "Tuğla Paketlendi",
+        "lab-packaged-message": "%s (tanımlayıcı: %s) bir %s'i x%s pakete ayırdı (lab ID: %s, istasyon ID: %s)",
+        "lab-upgrade-title": "Laboratuvar Yükseltildi",
+        "lab-upgrade-message": "Laboratuvar (lab ID: %s) yükseltmeyi tamamladı",
+        "lab-door-title": "Laboratuvar Kapısı",
+        "lab-door-message": "%s (tanımlayıcı: %s) laboratuvar (lab ID: %s) kapısını %s",
+        "lab-transfer-title": "Laboratuvar Mülkiyet Devri",
+        "lab-transfer-message": "%s (tanımlayıcı: %s) laboratuvar (lab ID: %s) mülkiyetini %s (tanımlayıcı: %s)'e devretti",
+        "lab-sold-title": "Laboratuvar Satıldı",
+        "lab-sold-message": "%s (tanımlayıcı: %s) laboratuvarını (lab ID: %s) devlete $%s karşılığında sattı"
+    }
+}
