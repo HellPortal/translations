@@ -1,0 +1,125 @@
+{
+    "notify": {
+        "no-money": "Yeterli paran yok",
+        "not-experienced": "Sanırım bunu yapmak için yeterince tecrübeli değilim",
+        "cant-carry": "Bu kadarını taşıyamazsın",
+        "no-durability": "Oksijen tankın boş!",
+        "no-scuba-gear": "Oksijen aktaracak dalış ekipmanın yok",
+        "scuba-gear-full": "Dalış ekipmanın zaten dolu",
+        "refill-success": "Dalış ekipmanına başarıyla daha fazla oksijen ekledin",
+        "release-anchor": "Tekne demiri bırakıldı",
+        "set-anchor": "Tekne demiri atıldı",
+        "invalid-player": "Hedef uygun değil veya geçersiz",
+        "already-in-group": "Zaten bir gruptasın",
+        "target-already-in-group": "Hedef zaten bir grupta",
+        "target-owns-a-group": "Hedef zaten bir grubun sahibi",
+        "owner-left-group": "Grubunuz dağıtıldı",
+        "member-left-group": "Gruptan ayrıldın",
+        "owner-added-member": "Gruba %s'i ekledin",
+        "member-added": "%s seni dalış grubuna ekledi",
+        "owner-removed-member": "Gruptan %s'i çıkardın",
+        "member-removed": "%s seni dalış grubundan çıkardı"
+    },
+    "target": {
+        "start-diving": "Konuş",
+        "toggle-anchor": "Demir at/çek",
+        "pickup-crate": "Al"
+    },
+    "textui": {
+        "underwater": "Kalan Oksijen: %s%% \n Mevcut Derinlik: %s%s \n Rekor Derinlik: %s%s \n Bulunan Kasalar: %s/%s"
+    },
+    "inputs": {
+        "quantity": {
+            "label": "Miktar",
+            "desc": "Kaç tane?"
+        },
+        "player": {
+            "label": "Oyuncu",
+            "desc": "Oyuncunun ID'sini gir"
+        }
+    },
+    "alerts": {
+        "continue-diving": {
+            "header": "Dalışa Devam Et?",
+            "content": "Harika iş! Tüm kasalar grubun tarafından toplandı. Dalışa devam etmek ister misin?",
+            "labels": {
+                "confirm": "Devam Et",
+                "cancel": "Dur"
+            }
+        }
+    },
+    "emails": {
+        "searching": "Selam! Benim. Bazı kasa bulunabilecek noktalar hakkında bilgi bulmaya çalışmam için bana biraz zaman ver. Bir şey bulduğumda sana haber veririm!",
+        "found-something": "Selam! Bir sıcak nokta hakkında bilgi buldum! GPS'inde işaretli alana git ve bir şeyler bulup bulamayacağını gör. İyi şanslar!"
+    },
+    "player-data": {
+        "level-title": "Tüplü Dalış | Seviye %s/%s",
+        "level-desc": "Şu anda %sXP'ye sahipsin",
+        "stats-title": "İstatistikler",
+        "stats-desc": "Ömür boyu dalış istatistiklerini görüntüle",
+        "meta-next-level": "Sonraki Seviye",
+        "meta-remainder": "Kalan",
+        "meta-maxed-level": "Maksimum Seviyeye Ulaşıldı"
+    },
+    "stats-menu": {
+        "main-title": "İstatistikler",
+        "crates-title": "Kasalar",
+        "crates-desc": "Toplam %s kasa topladın",
+        "depth-title": "Derinlik",
+        "depth-desc": "Kaydedilen en derin dalışın %s%s",
+        "swam-title": "Yüzülen",
+        "swam-desc": "Sualtında toplam %s%s yüzdün"
+    },
+    "diving-menu": {
+        "main-title": "Tüplü Dalış",
+        "leaderboards-title": "Liderlik Tabloları",
+        "leaderboards-desc": "En iyi 10 dalgıcı görüntüle",
+        "shop-title": "Dalış Dükkanı",
+        "shop-desc": "Dalış ekipmanı satın al",
+        "rental-title": "Tekne Kirala",
+        "rental-desc": "Teknen mi yok? Sorun değil!",
+        "create-group-title": "Grup Oluştur",
+        "create-group-desc": "Tek başına veya arkadaşlarınla dalış yap, buradan başla!",
+        "manage-group-title": "Grubu Yönet",
+        "manage-group-desc": "Dalış grubunu yönet",
+        "rental-return-title": "Tekneyi İade Et",
+        "rental-return-desc": "Kiraladığın tekneyi iade et",
+        "start-title": "Dalışa Başla",
+        "start-desc": "Ekipmanların hazır mı? Bir tekne? Hadi gidelim!",
+        "stop-title": "Dalışı Durdur",
+        "stop-desc": "Sualtında yeterince zaman geçirdin mi? Hadi bir mola verelim!"
+    },
+    "shop-menu": {
+        "main-title": "Dalış Dükkanı",
+        "tank-title": "%s | Seviye %s",
+        "item-desc": "%s'i $%s karşılığında satın al"
+    },
+    "manage-group-menu": {
+        "main-title": "Grubu Yönet",
+        "add-member-title": "Üye Ekle",
+        "add-member-desc": "Dalış grubuna bir üye ekle",
+        "remove-member-desc": "Üyeyi gruptan çıkarmak için tıkla",
+        "leave-group-title": "Gruptan Ayrıl",
+        "leave-group-desc": "Dalış grubundan ayrıl"
+    },
+    "leaderboard-menu": {
+        "main-title": "Liderlik Tabloları",
+        "player-desc": "Seviye: %s | XP: %s | Toplam Kasa: %s"
+    },
+    "logs": {
+        "crate-found-title": "Kasa Bulundu",
+        "crate-found-message": "%s (tanımlayıcı: %s) %s konumunda bir kasa aldı",
+        "crate-opened-title": "Kasa Açıldı",
+        "crate-opened-message": "%s (tanımlayıcı: %s) bir kasa açtı ve %s aldı",
+        "item-purchased-title": "Dükkan Satın Alma",
+        "item-purchased-message": "%s (tanımlayıcı: %s) x%d %s satın aldı",
+        "boat-rented-title": "Tekne Kiralandı",
+        "boat-rented-message": "%s (tanımlayıcı: %s) $%s karşılığında bir tekne kiraladı",
+        "boat-returned-title": "Tekne İade Edildi",
+        "boat-returned-message": "%s (tanımlayıcı: %s) kiralık bir tekneyi iade etti ve $%s geri aldı"
+    },
+    "measurements": {
+        "meters": "m",
+        "feet": "fit"
+    }
+}
