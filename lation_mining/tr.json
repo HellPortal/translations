@@ -1,14 +1,14 @@
 {
     "notify": {
-        "missing-item": "Bunu yapmak için bir şeyim eksik",
-        "not-experienced": "Sanırım bunu yapmak için yeterince tecrübeli değilim",
+        "missing-item": "Bunu yapmak için bir şeyler eksik",
+        "not-experienced": "Bunu yapacak kadar deneyimli olduğumu sanmıyorum",
         "missing-pickaxe": "Kullanabileceğim bir kazmaya ihtiyacım var",
-        "pickaxe-no-durability": "Kazmamın durumu çok kötü..",
-        "nighttime": "Geceleri madencilik yapmama izin verilmediğini sanıyorum",
+        "pickaxe-no-durability": "Kazmamın durumu berbat...",
+        "nighttime": "Gece madencilik yapmama izin verildiğini sanmıyorum",
         "no-money": "Yeterli paran yok",
-        "no-item": "Bu öğeden yeterince yok",
-        "cant-carry": "Bu kadarını taşıyamazsın",
-        "max-ingots": "Tek seferde en fazla %s külçe eritebilirsin"
+        "no-item": "Bu eşyadan yeterince yok",
+        "cant-carry": "Bu kadar fazla taşıyamazsın",
+        "max-ingots": "Bir seferde en fazla %s külçe eritilebilir"
     },
     "target": {
         "mine-ore": "Madencilik Yap",
@@ -16,7 +16,7 @@
         "smelt-ore": "Erit"
     },
     "textui": {
-        "smelt": "Ergime (%s/%s) - %s%%"
+        "smelt": "Eritme işlemi (%s/%s) - %s%%"
     },
     "inputs": {
         "label": "Miktar",
@@ -24,57 +24,57 @@
     },
     "player-data": {
         "level-title": "Madencilik | Seviye %s/%s",
-        "level-desc": "Şu anda %sXP'ye sahipsin",
+        "level-desc": "Şu an %sXP'ye sahipsin",
         "stats-title": "Ömür Boyu İstatistikler",
         "stats-desc": "Ömür boyu madencilik istatistiklerini görüntüle",
         "meta-next-level": "Sonraki Seviye",
         "meta-remainder": "Kalan",
-        "meta-maxed-level": "Maksimum Seviyeye Ulaşıldı"
+        "meta-maxed-level": "Maksimum Seviye Erişildi"
     },
     "stats-menu": {
         "main-title": "Ömür Boyu İstatistikler",
-        "mined-title": "Çıkarılan",
-        "mined-desc": "Toplam %s cevher çıkardın",
+        "mined-title": "Kazılan",
+        "mined-desc": "Toplam %s maden kazdın",
         "smelted-title": "Eritilen",
         "smelted-desc": "Toplam %s külçe erittin",
         "earned-title": "Kazanılan",
         "earned-desc": "Toplam $%s kazandın"
     },
     "mine-menu": {
-        "main-title": "Madencilik",
-        "leaderboards-title": "Liderlik Tabloları",
+        "main-title": "Madenler",
+        "leaderboards-title": "Lider Tabloları",
         "leaderboards-desc": "En iyi 10 madenciyi görüntüle",
-        "shop-title": "Dükkan",
-        "shop-desc": "Madencilik ekipmanını buradan satın al",
-        "pawn-title": "Rehincilik",
-        "pawn-desc": "Cevherlerini ve daha fazlasını kar elde etmek için sat"
+        "shop-title": "Mağaza",
+        "shop-desc": "Madencilik ekipmanlarını buradan satın al",
+        "pawn-title": "Tefeci Dükkanı",
+        "pawn-desc": "Madenlerini ve daha fazlasını kar için sat"
     },
     "shop-menu": {
-        "main-title": "Madencilik: Dükkan",
+        "main-title": "Madenler: Mağaza",
         "pickaxe-title": "%s | Seviye %s",
-        "item-desc": "%s'i $%s karşılığında satın al"
+        "item-desc": "%s satın al - $%s"
     },
     "pawn-menu": {
-        "main-title": "Madencilik: Rehincilik",
-        "item-title": "%s'i Sat",
-        "item-desc": "%s'i $%s karşılığında sat"
+        "main-title": "Madenler: Tefeci",
+        "item-title": "%s Sat",
+        "item-desc": "%s sat - $%s"
     },
     "leaderboard-menu": {
-        "main-title": "Madencilik: Liderlik Tabloları",
-        "player-desc": "Seviye: %s | XP: %s | Toplam Çıkarılan: %s"
+        "main-title": "Madenler: Lider Tabloları",
+        "player-desc": "Seviye: %s | XP: %s | Toplam Kazılan: %s"
     },
     "smelt-menu": {
-        "main-title": "Ergime",
-        "ingot-desc": "Gerekli: %s"
+        "main-title": "Eritme",
+        "ingot-desc": "%s Gerekli"
     },
     "logs": {
-        "mined-title": "Cevher Çıkarıldı",
-        "mined-message": "%s (tanımlayıcı: %s) bir kayadan %s çıkardı",
-        "smelted-title": "Külçe Eritildi",
-        "smelted-message": "%s (tanımlayıcı: %s) x%d %s eritti",
-        "purchased-title": "Dükkan Satın Alma",
-        "purchased-message": "%s (tanımlayıcı: %s) x%d %s satın aldı",
-        "pawned-title": "Rehincilik Satışı",
-        "pawned-message": "%s (tanımlayıcı: %s) x%d %s sattı"
+        "mined-title": "Kazılan Maden",
+        "mined-message": "%s (identifier: %s), %s madeni kazdı",
+        "smelted-title": "Eritilen Külçe",
+        "smelted-message": "%s (identifier: %s), x%d %s eritti",
+        "purchased-title": "Mağaza Satın Alımı",
+        "purchased-message": "%s (identifier: %s), x%d %s satın aldı",
+        "pawned-title": "Tefeci Dükkanı Satışı",
+        "pawned-message": "%s (identifier: %s), x%d %s sattı"
     }
 }
