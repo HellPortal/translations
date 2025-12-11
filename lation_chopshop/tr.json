@@ -1,123 +1,123 @@
 {
-    "notify": {
-        "cant-carry": "O kadarını taşıyamazsın",
-        "cant-chop-here": "Bunu burada yapamazsın",
-        "not-started": "Henüz doğramaya başlamadın",
-        "requested-vehicle": "Müsait bir şey olduğunda sana haber vereceğim",
-        "start-chop": "Artık doğramaya başlayabilirsin",
-        "missing-tool": "Bunu yapmak için gerekli aletin eksik",
-        "tool-broke": "Kahretsin! Aleti kırdım..",
-        "part-completed": "Hm, burada çıkarılacak bir şey yok",
-        "no-police": "Görevde yeterli polis yok",
-        "not-enough-parts": "Değiştirmek için yeterli parçan yok",
-        "not-enough-money": "Yeterli paran yok",
-        "invalid-player": "Hedef uygun değil veya geçersiz",
-        "already-in-group": "Zaten bir gruptasın",
-        "target-already-in-group": "Hedef zaten bir grupta",
-        "target-owns-a-group": "Hedef zaten bir grubun sahibi",
-        "owner-left-group": "Grubunuz dağıtıldı",
-        "member-left-group": "Gruptan ayrıldın",
-        "owner-added-member": "Gruba %s'i ekledin",
-        "member-added": "%s seni doğrama grubuna ekledi",
-        "owner-removed-member": "Gruptan %s'i çıkardın",
-        "member-removed": "%s seni doğrama grubundan çıkardı"
-    },
-    "target": {
-        "talk": "Konuş",
-        "start-chop": "Doğramaya Başla",
-        "remove-bonnet": "Kaputu Çıkar",
-        "remove-door": "Kapıyı Çıkar",
-        "remove-wheel": "Tekerleği Çıkar",
-        "remove-boot": "Bagajı Çıkar",
-        "complete-chop": "Şasiyi Hurdaya Ayır"
-    },
-    "textui": {
-        "vehicle-finder": {
-            "label": "**Araç Bulucu** \n Atanan Model: %s \n Yakındaki Eşleşmeler: %s"
-        }
-    },
-    "inputs": {
-        "shops": {
-            "label": "Miktar",
-            "desc": "Kaç tane?"
-        },
-        "player": {
-            "label": "Oyuncu",
-            "desc": "Oyuncunun ID'sini gir"
-        }
-    },
-    "alerts": {
-        "vehicle-chopped": {
-            "header": "Doğramaya Devam Et?",
-            "content": "Harika iş! %s doğrama işlemini tamamladın. Devam etmek ister misin?",
-            "labels": {
-                "confirm": "Devam Et",
-                "cancel": "Dur"
-            }
-        }
-    },
-    "player-data": {
-        "level-title": "Doğrama | Seviye %s/%s",
-        "level-desc": "Şu anda %sXP'ye sahipsin",
-        "stats-title": "İstatistikler",
-        "stats-desc": "Ömür boyu doğrama istatistiklerini görüntüle",
-        "meta-next-level": "Sonraki Seviye",
-        "meta-remainder": "Kalan",
-        "meta-maxed-level": "Maksimum Seviyeye Ulaşıldı"
-    },
-    "stats-menu": {
-        "main-title": "İstatistikler",
-        "vehicles-title": "Araçlar",
-        "vehicles-desc": "Toplam %s araç doğradın",
-        "parts-title": "Parçalar",
-        "parts-desc": "Toplam %s parça aldın"
-    },
-    "chop-menu": {
-        "main-title": "Doğrama Atölyesi",
-        "leaderboards-title": "Liderlik Tabloları",
-        "leaderboards-desc": "En iyi 10 doğramacıyı görüntüle",
-        "tool-shop-title": "Alet Dükkanı",
-        "tool-shop-desc": "Doğrama için alet satın al",
-        "swap-shop-title": "Takas Dükkanı",
-        "swap-shop-desc": "Oto parçalarını başka bir şeyle değiştir",
-        "create-group-title": "Grup Oluştur",
-        "create-group-desc": "Tek başına veya arkadaşlarınla doğra, buradan başla!",
-        "manage-group-title": "Grubu Yönet",
-        "manage-group-desc": "Doğrama grubunu yönet",
-        "start-chop-title": "İş İste",
-        "start-chop-desc": "Bulup doğramak için bir araç atanmasını iste"
-    },
-    "manage-group-menu": {
-        "main-title": "Grubu Yönet",
-        "add-member-title": "Üye Ekle",
-        "add-member-desc": "Doğrama grubuna bir üye ekle",
-        "remove-member-desc": "Üyeyi gruptan çıkarmak için tıkla",
-        "leave-group-title": "Gruptan Ayrıl",
-        "leave-group-desc": "Doğrama grubundan ayrıl"
-    },
-    "swap-menu": {
-        "main-title": "Takas Dükkanı",
-        "item-desc": "x%s oto parçasını x%s %s ile takas et"
-    },
-    "tool-menu": {
-        "main-title": "Alet Dükkanı",
-        "item-desc": "%s'i $%s karşılığında satın al"
-    },
-    "leaderboard-menu": {
-        "main-title": "Liderlik Tabloları",
-        "player-desc": "Seviye: %s | XP: %s | Toplam Doğrama: %s"
-    },
-    "emails": {
-        "vehicle-assigned": "Selam - benim. En kısa sürede benim için bir %s bulup doğramanı istiyorum - dikkatli ol ve iyi şanslar!"
-    },
-    "logs": {
-        "part-chopped-title": "Parça Doğrandı",
-        "part-chopped-desc": "%s (tanımlayıcı: %s) bir araçtan bir parça (bone: %s) doğradı ve x%s %s aldı",
-        "item-purchased-title": "Öğe Satın Alındı",
-        "item-purchased-desc": "%s (tanımlayıcı: %s) x%s %s'i $%s karşılığında satın aldı",
-        "item-swapped-title": "Öğe Takas Edildi",
-        "item-swapped-desc": "%s (tanımlayıcı: %s) x%s %s'i x%s %s ile takas etti",
-        "tool-broke-title": "Alet Kırıldı",
-        "tool-broke-desc": "%s (tanımlayıcı: %s) %s'ini kırdı"
-    }
+	"notify": {
+		"cant-carry": "O kadar taşıyamazsın",
+		"cant-chop-here": "Bunu burada yapamazsın",
+		"not-started": "Henüz parçalamaya başlamadın",
+		"requested-vehicle": "Müsait bir şey olduğunda seni bilgilendireceğim",
+		"start-chop": "Artık parçalamaya başlayabilirsin",
+		"missing-tool": "Bunu yapmak için gereken araç eksik",
+		"tool-broke": "Kahretsin! Aleti kırdım..",
+		"part-completed": "Hm, burada çıkarılacak bir şey yok",
+		"no-police": "Görevde yeterli polis yok",
+		"not-enough-parts": "Değiştirmek için yeterli parçan yok",
+		"not-enough-money": "Yeterli paran yok",
+		"invalid-player": "Hedef mevcut değil veya geçersiz",
+		"already-in-group": "Zaten bir gruptasın",
+		"target-already-in-group": "Hedef zaten bir grupta",
+		"target-owns-a-group": "Hedefin zaten bir grubu var",
+		"owner-left-group": "Grubunuz dağıtıldı",
+		"member-left-group": "Gruptan ayrıldın",
+		"owner-added-member": "Gruba %s'i ekledin",
+		"member-added": "%s seni parçalama grubuna ekledi",
+		"owner-removed-member": "Gruptan %s'i çıkardın",
+		"member-removed": "%s seni parçalama grubundan çıkardı"
+	},
+	"target": {
+		"talk": "Konuş",
+		"start-chop": "Parçalamaya Başla",
+		"remove-bonnet": "Kaputu Çıkar",
+		"remove-door": "Kapıyı Çıkar",
+		"remove-wheel": "Tekerleği Çıkar",
+		"remove-boot": "Bagajı Çıkar",
+		"complete-chop": "Şasiyi Hurdaya Ayır"
+	},
+	"textui": {
+		"vehicle-finder": {
+			"label": "**Araç Bulucu** \n Atanan Model: %s \n Yakındaki Eşleşmeler: %s"
+		}
+	},
+	"inputs": {
+		"shops": {
+			"label": "Miktar",
+			"desc": "Kaç tane?"
+		},
+		"player": {
+			"label": "Oyuncu",
+			"desc": "Oyuncunun kimliğini girin"
+		}
+	},
+	"alerts": {
+		"vehicle-chopped": {
+			"header": "Parçalamaya Devam Edilsin mi?",
+			"content": "Harika iş! %s'i parçalamayı tamamladın. Devam etmek ister misin?",
+			"labels": {
+				"confirm": "Devam Et",
+				"cancel": "Dur"
+			}
+		}
+	},
+	"player-data": {
+		"level-title": "Parçalama | Seviye %s/%s",
+		"level-desc": "Şu anda %sXP'niz var",
+		"stats-title": "İstatistikler",
+		"stats-desc": "Ömür boyu parçalama istatistiklerini gör",
+		"meta-next-level": "Sonraki Seviye",
+		"meta-remainder": "Kalan",
+		"meta-maxed-level": "Maksimum Seviyeye Ulaşıldı"
+	},
+	"stats-menu": {
+		"main-title": "İstatistikler",
+		"vehicles-title": "Araçlar",
+		"vehicles-desc": "Toplamda %s araç parçaladın",
+		"parts-title": "Parçalar",
+		"parts-desc": "Toplamda %s parça aldın"
+	},
+	"chop-menu": {
+		"main-title": "Parçalama Dükkanı",
+		"leaderboards-title": "Liderlik Tabloları",
+		"leaderboards-desc": "En iyi 10 parçalayıcıyı gör",
+		"tool-shop-title": "Araç Dükkanı",
+		"tool-shop-desc": "Parçalama için araç satın al",
+		"swap-shop-title": "Takas Dükkanı",
+		"swap-shop-desc": "Oto parçalarını başka bir şeyle değiştir",
+		"create-group-title": "Grup Oluştur",
+		"create-group-desc": "Tek başına veya arkadaşlarla parçala, buradan başla!",
+		"manage-group-title": "Grubu Yönet",
+		"manage-group-desc": "Parçalama grubunu yönet",
+		"start-chop-title": "İş İste",
+		"start-chop-desc": "Bulup parçalamak için bir araç atanmasını iste"
+	},
+	"manage-group-menu": {
+		"main-title": "Grubu Yönet",
+		"add-member-title": "Üye Ekle",
+		"add-member-desc": "Parçalama grubuna bir üye ekle",
+		"remove-member-desc": "Üyeyi gruptan çıkarmak için tıkla",
+		"leave-group-title": "Gruptan Ayrıl",
+		"leave-group-desc": "Parçalama grubundan ayrıl"
+	},
+	"swap-menu": {
+		"main-title": "Takas Dükkanı",
+		"item-desc": "x%s oto parçasını x%s %s ile değiştir"
+	},
+	"tool-menu": {
+		"main-title": "Araç Dükkanı",
+		"item-desc": "%s'i $%s karşılığında satın al"
+	},
+	"leaderboard-menu": {
+		"main-title": "Liderlik Tabloları",
+		"player-desc": "Seviye: %s | XP: %s | Toplam Parçalama: %s"
+	},
+	"emails": {
+		"vehicle-assigned": "Selam - benim. En kısa sürede benim için bir %s bulup parçalaman gerekiyor - dikkatli ol ve iyi şanslar!"
+	},
+	"logs": {
+		"part-chopped-title": "Parça Parçalandı",
+		"part-chopped-desc": "%s (tanımlayıcı: %s) bir araçtan bir parça (bone: %s) parçaladı ve x%s %s aldı",
+		"item-purchased-title": "Öğe Satın Alındı",
+		"item-purchased-desc": "%s (tanımlayıcı: %s) x%s %s'i $%s karşılığında satın aldı",
+		"item-swapped-title": "Öğe Takas Edildi",
+		"item-swapped-desc": "%s (tanımlayıcı: %s) x%s %s'i x%s %s ile takas etti",
+		"tool-broke-title": "Araç Kırıldı",
+		"tool-broke-desc": "%s (tanımlayıcı: %s) %s'ini kırdı"
+	}
 }
